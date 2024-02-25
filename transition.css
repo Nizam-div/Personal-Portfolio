@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #02585e;
+  }
+  
+  .container {
+        width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(255, 255, 255);
+        border: 3px solid rgb(0, 0, 0);
+     
+  }
+  
+  .step {
+    display: none;
+  }
+  
+  .step.active {
+    display: block;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .writting{
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+.writting .input{
+    width: 90%;
+    height: 12px;
+    box-shadow: 0 0 4px 2px gray;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 2px gray; ;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #06a900;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.prev-btn {
+    background-color: #3d22d2;
+  }
+  button.ok-button{
+    background-color:#06a900 ;
+  }
+  .payment-details {
+    display: none;
+  }
+  
+  .payment-details.active {
+    display: block;
+  }
+.step h2{
+    font-weight: 600;
+    font-size: 18px;
+  }
+.payment-details .pin{
+    width: 30%;
+    height: 15px;
+}
+  
